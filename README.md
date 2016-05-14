@@ -124,7 +124,7 @@ Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://git
 
 ## Additional Guidelines
 #### Objects
-- Avoid Object mutations with Object.assign().
+- Avoid Object mutations by using Object.assign().
 
   ```js
   // bad
@@ -133,6 +133,7 @@ Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://git
   };
   user['best-friend'] = 'Chewie';
 
+  // good
   const user {
     'name': 'Han Solo'
   };
