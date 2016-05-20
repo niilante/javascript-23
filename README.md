@@ -115,7 +115,7 @@ Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://git
   // good
   render(firstName) {
     return (
-      <div id='i-am'>
+      <div id="i-am">
         {`I'm ${firstName}!`}
       </div>
     );
