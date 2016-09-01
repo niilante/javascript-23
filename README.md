@@ -170,6 +170,7 @@ Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://git
   ```
 
   ```js
+  // good
   'use strict';
 
   function someFunction() {
