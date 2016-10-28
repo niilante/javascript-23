@@ -277,6 +277,7 @@ Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://git
 ## References
 #### ES2015
 - [Understanding ES6](https://github.com/nzakas/understandinges6)
+- [Destructuring and parameter handling in ES6](http://www.2ality.com/2015/01/es6-destructuring.html)
 
 #### Arrays
 - [Array#each](https://egghead.io/lessons/javascript-the-array-foreach-method)
