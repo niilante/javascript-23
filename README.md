@@ -233,6 +233,30 @@ Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://git
   }
   ```
 
+#### Falsy and Undefined values
+- When checking for falsy values, use `!`
+  ```js
+  if (!isHappy) {
+    cheerUp();
+  }
+  ```
+- When checking for undefined values, use lodash's `isUndefined`.
+  > We delegate this to Lodash because of Javascript's inconsistencies.
+
+  ```js
+  import isUndefined from 'lodash/isUndefined';
+
+  // bad
+  if (typeof thing === 'undefined') {
+    // ...
+  }
+
+  // good
+  if (isUndefined(thing)) {
+    // ...
+  }
+  ```
+
 ## Naming Conventions
 - Always use camelCase when naming variables
 
