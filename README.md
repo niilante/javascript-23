@@ -12,23 +12,6 @@
 Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), with a few exceptions and additional guidelines.
 
 ## Exceptions
-#### Objects
-- Do not use trailing commas. [comma-dangle](http://eslint.org/docs/rules/comma-dangle)
-  > It breaks your code in IE8.
-
-  ```js
-  // bad
-  const user = {
-    firstName: 'Han',
-    lastName: 'Solo',
-  };
-
-  // good
-  const user = {
-    firstName: 'Han',
-    lastName: 'Solo'
-  };
-  ```
 
 #### Strings
 - Limit your lines to 80 characters. [max-len](http://eslint.org/docs/rules/max-len)
@@ -121,6 +104,8 @@ Our guide is based off the excellent [Airbnb JavaScript Style Guide](https://git
     );
   }
   ```
+
+- Use .js file extensions, not .jsx
 
 ## Additional Guidelines
 #### Objects
