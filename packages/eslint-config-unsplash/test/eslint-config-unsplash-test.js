@@ -10,9 +10,9 @@ function foo({ name }) {
   return string + name;
 }
 
-// No trailing commas
+// trailing commas
 const user = {
-  name: 'Han Solo'
+  name: 'Han Solo',
 };
 
 // No Yoda
