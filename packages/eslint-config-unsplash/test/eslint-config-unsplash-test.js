@@ -15,6 +15,10 @@ const user = {
   name: 'Han Solo',
 };
 
+// Allow undersfore dangle
+const __SERVER__ = 'hi';
+foo(__SERVER__);
+
 // No Yoda
 const isHan = user.name === 'Han Solo';
 if (isHan) {
